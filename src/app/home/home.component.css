@@ -1,0 +1,33 @@
+#homePage{
+
+    .IamSection{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+        min-height: 300px;
+        height: calc(100vh - 300px);
+        display: grid;
+        grid-template-columns: 1fr 300px 400px 1fr;
+        grid-template-rows: 50px 50px;
+        text-align: left;
+
+        .IamGraphic{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .IamTitle{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .IamDescription{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+    }
+}

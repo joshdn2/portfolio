@@ -1,0 +1,11 @@
+#navbar{
+    width: 90%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+
+    .linksSection{
+        display: flex;
+        gap: 30px;
+    }
+}

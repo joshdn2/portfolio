@@ -1,0 +1,29 @@
+@import '../../../styles.css';
+#logo{
+    
+    .logoCont{
+        font-weight:bold;
+        font-size: 32px;
+        position: relative;
+
+        div{
+            color:var(--bright-green);
+            position:absolute;
+        }
+        .circleO{
+            left:10px;
+            top:15px;
+            height:15px;
+            width:14px;
+            background:var(--bright-green);
+            border-radius:10px;
+        }
+        .sh{
+            left:25px;
+        }
+        .danneman{
+            left:47px;
+            top:18px;
+        }
+    }
+}
