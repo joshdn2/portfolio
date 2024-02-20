@@ -1,6 +1,8 @@
-@import '../../../styles.css';
+@import '../../styles.css';
 #logo{
-    
+    height: 65px;
+    width: 200px;
+
     .logoCont{
         font-weight:bold;
         font-size: 32px;

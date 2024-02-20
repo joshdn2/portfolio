@@ -1,5 +1,6 @@
 
 :root {
+    --light-gray: #b4b4b4;
     --med-gray: #6E6E6E;
     --bright-green: #61CE70;
     --yellow-green: #baff39;
@@ -13,7 +14,6 @@ body{
     color: var(--text-white);
     max-width: 100%;
     clear: none;
-    text-align: center;
     -webkit-text-fill-folor: inherit;
     background-clip: border-box;
     align-self: center;

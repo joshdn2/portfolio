@@ -1,11 +1,32 @@
 #navbar{
     width: 90%;
-    margin: 70px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
 
     .linksSection{
         display: flex;
-        gap: 30px;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .homelink{
+            margin: 0 auto;
+        }
+        .linksSection{
+            padding: 0 10px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
     }
 }

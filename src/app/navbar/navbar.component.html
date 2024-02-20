@@ -1,7 +1,9 @@
 <div id="navbar">
     <app-logo class="homelink"></app-logo>
     <div class="linksSection">
-        <app-professional-link></app-professional-link>
-        <app-personal-link></app-personal-link>
+        <div class="professionalLink" (click)="navClick('professional')">professional</div>
+        <div class="personalLink" (click)="navClick('personal')">personal</div>
+        <div class="projectsLink" (click)="navClick('projects')">projects</div>
+        <div class="contactMeLink" (click)="navClick('contact')">contact me</div>
     </div>
-</div>
+</div> 

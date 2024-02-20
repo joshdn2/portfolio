@@ -1,6 +1,56 @@
 #graphicSection{
+    position: relative;
+
+    
     img{
         height: 300px;
         width: auto;
+        position: absolute;
+        z-index: -1;
+    }
+    .backblob{
+        position: absolute;
+        z-index: -3;
+        left: -121px;
+        width: 365px;
+        top: 7px;
+        transform: rotate(30deg);
+    }
+    .frontblob{
+        position: absolute;
+        z-index: 1;
+        top:127px;
+        width:217px;
+        left:-108px;
+    }
+    .frontblob2{
+        position: absolute;
+        z-index: 1;
+        left: 39px;
+        transform: rotate(230deg);
+        width: 273px;
+        top: 170px;
+    }
+    .frontblob3{
+        position: absolute;
+        z-index: 1;
+        left: -8px;
+        transform: rotate(-10deg);
+        width: 146px;
+        top: 226px;
+    }
+    .backblob2{
+        position: absolute;
+        z-index: -2;
+        left: 132px;
+        width: 95px;
+        top: 159px;
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .graphicSectionPlacement{
+        margin-left:-50px;
     }
 }
