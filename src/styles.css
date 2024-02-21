@@ -13,6 +13,7 @@ body{
     background: var(--dark-gray);
     color: var(--text-white);
     max-width: 100%;
+    min-width: 314px;
     clear: none;
     -webkit-text-fill-folor: inherit;
     background-clip: border-box;

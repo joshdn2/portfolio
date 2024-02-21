@@ -1,17 +1,15 @@
 #graphicSection{
     position: relative;
-    
+
     img{
-        height: 300px;
         width: auto;
         position: absolute;
+        left: 80px;
         z-index: -1;
     }
     .backblob{
         position: relative;
         z-index: -3;
-        left: -121px;
-        width: 365px;
         top: 7px;
         animation: floatAnimation30 1.5s infinite alternate ease-in-out; 
         transform-origin: center;
@@ -19,51 +17,109 @@
     .frontblob{
         position: absolute;
         z-index: 2;
-        top:127px;
-        width:217px;
-        left:-108px;
         animation: noRotateFloat 1.9s infinite alternate ease-in-out; 
     }
     .frontblob2{
         position: absolute;
         z-index: 2;
-        left: 39px;
-        width: 273px;
-        top: 170px;
+        left: 119px;
         animation: floatAnimation230 1.7s infinite alternate ease-in-out; 
         transform-origin: center;
     }
     .frontblob3{
         position: absolute;
         z-index: 2;
-        left: -8px;
-        width: 146px;
-        top: 226px;
+        left: 72px;
         animation: floatAnimationNeg10 1.1s infinite alternate ease-in-out; 
         transform-origin: center;
     }
     .frontblob4{
         position: absolute;
         z-index: 1;
-        left: 161px;
-        width: 95px;
-        top: 194px;
         animation: noRotateFloat 2.1s infinite alternate ease-in-out; 
     }
     .backblob2{
         position: absolute;
         z-index: -2;
-        left: 145px;
-        width: 95px;
-        top: 159px;
         animation: floatAnimation230 1.3s infinite alternate ease-in-out; 
         transform-origin: center;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (min-width: 801px) {
     .graphicSectionPlacement{
-        margin-left:-50px;
+        img{
+            height: 370px;
+        }
+        .frontblob{
+            top:146px;
+            width:293px;
+            left:-71px;
+        }
+        .frontblob2{
+            top:203px;
+            width:361px;
+        }
+        .frontblob3{
+            top:282px;
+            width:178px;
+        }
+        .frontblob4{
+            top:222px;
+            width:141px;
+            left:269px;
+        }
+        .backblob2{
+            left:257px;
+            width:117px;
+            top:176px;
+        }
+        .backblob{
+            left:-67px;
+            width:437px;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .graphicSectionPlacement{
+
+        img{
+            height: 300px;
+        }
+        .frontblob{
+            top:127px;
+            width:217px;
+            left:-28px;
+        }
+        .frontblob2{
+            width: 273px;
+            top: 170px;
+        }
+        .frontblob3{
+            width: 146px;
+            top: 226px;
+        }
+        .frontblob4{
+            left: 241px;
+            width: 95px;
+            top: 194px;
+        }
+        .backblob2{
+            left: 225px;
+            width: 95px;
+            top: 159px;
+        }
+        .backblob{
+            left: -41px;
+            width: 365px;
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .graphicSectionPlacement{
+        margin-left:-30px;
     }
 }
 

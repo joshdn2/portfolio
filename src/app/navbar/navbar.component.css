@@ -6,12 +6,14 @@
 
     .linksSection{
         display: flex;
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 10px;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:638px) {
     #navbar{
         width: 100%;
         display: flex;
