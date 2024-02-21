@@ -1,6 +1,5 @@
 #graphicSection{
     position: relative;
-
     
     img{
         height: 300px;
@@ -9,48 +8,102 @@
         z-index: -1;
     }
     .backblob{
-        position: absolute;
+        position: relative;
         z-index: -3;
         left: -121px;
         width: 365px;
         top: 7px;
-        transform: rotate(30deg);
+        animation: floatAnimation30 1.5s infinite alternate ease-in-out; 
+        transform-origin: center;
     }
     .frontblob{
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         top:127px;
         width:217px;
         left:-108px;
+        animation: noRotateFloat 1.9s infinite alternate ease-in-out; 
     }
     .frontblob2{
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         left: 39px;
-        transform: rotate(230deg);
         width: 273px;
         top: 170px;
+        animation: floatAnimation230 1.7s infinite alternate ease-in-out; 
+        transform-origin: center;
     }
     .frontblob3{
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         left: -8px;
-        transform: rotate(-10deg);
         width: 146px;
         top: 226px;
+        animation: floatAnimationNeg10 1.1s infinite alternate ease-in-out; 
+        transform-origin: center;
+    }
+    .frontblob4{
+        position: absolute;
+        z-index: 1;
+        left: 161px;
+        width: 95px;
+        top: 194px;
+        animation: noRotateFloat 2.1s infinite alternate ease-in-out; 
     }
     .backblob2{
         position: absolute;
         z-index: -2;
-        left: 132px;
+        left: 145px;
         width: 95px;
         top: 159px;
-        transform: rotate(90deg);
+        animation: floatAnimation230 1.3s infinite alternate ease-in-out; 
+        transform-origin: center;
     }
 }
 
 @media screen and (max-width:450px) {
     .graphicSectionPlacement{
         margin-left:-50px;
+    }
+}
+
+@keyframes floatAnimation30 {
+    0% {
+        transform: translateY(0px) rotate(30deg);
+    }
+    100% {
+        transform: translateY(-5px) rotate(30deg);
+    }
+}
+@keyframes floatAnimation230 {
+    0% {
+        transform: translateY(-5px) rotate(230deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(230deg);
+    }
+}
+@keyframes floatAnimationNeg10 {
+    0% {
+        transform: translateY(2px) rotate(-10deg);
+    }
+    100% {
+        transform: translateY(-3px) rotate(-10deg);
+    }
+}
+@keyframes floatAnimation90 {
+    0% {
+        transform: translateY(-3px) rotate(90deg);
+    }
+    100% {
+        transform: translateY(2px) rotate(90deg);
+    }
+}
+@keyframes noRotateFloat {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-5px);
     }
 }
