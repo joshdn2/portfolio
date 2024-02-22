@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-between;
 
+    .homelink{
+        cursor: pointer;
+    }
     .linksSection{
         display: flex;
         flex-direction: row;

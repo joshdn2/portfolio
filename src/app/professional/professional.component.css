@@ -1,0 +1,17 @@
+@import '../../styles.css';
+.professionalPage{
+
+    .sectionHeader{
+        padding-bottom: 5px;
+        margin: 10px 0;
+        font-size: 38px;
+        font-weight: bold;
+        border-bottom: 2px solid var(--bright-green);
+    }
+}
+
+/* @media screen and (max-width:800px) {
+    .professionalPage{
+
+    }
+} */
