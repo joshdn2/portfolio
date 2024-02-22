@@ -10,6 +10,11 @@
         flex-wrap: wrap;
         gap: 25px;
         margin-top: 10px;
+
+        div{
+            align-self:center;
+            cursor: pointer;
+        }
     }
 }
 
@@ -29,6 +34,11 @@
             flex-direction: row;
             flex-wrap: wrap;
             gap: 10px;
+
+            div{
+                align-self:center;
+                cursor: pointer;
+            }
         }
     }
 }

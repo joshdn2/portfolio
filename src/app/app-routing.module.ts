@@ -7,11 +7,11 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
-  {path:'', component: HomeComponent},
-  {path:'professional', component: ProfessionalComponent},
-  {path:'personal', component: PersonalComponent},
-  {path:'projects', component: ProjectsComponent},
-  {path:'contact', component: ContactComponent},
+  {path:'', component: HomeComponent, title:'Josh Danneman Resume'},
+  {path:'professional', component: ProfessionalComponent, title:'Josh Danneman Resume'},
+  {path:'personal', component: PersonalComponent, title:'Josh Danneman Resume'},
+  {path:'projects', component: ProjectsComponent, title:'Josh Danneman Resume'},
+  {path:'contact', component: ContactComponent, title:'Josh Danneman Resume'},
   {path: '*', redirectTo: ''}
 ]
 
