@@ -1,0 +1,28 @@
+@import '../../../styles.css';
+
+.skillSection{
+
+    .skillHeader{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    .skillItem{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+
+        .starIcon{
+            width:10px;
+            height:10px;
+            color:var(--light-gray);
+        }
+    }
+    .skillItem:hover{
+        font-weight: bold;
+        
+        .starIcon{
+            color:var(--bright-green);
+        }
+    }
+}

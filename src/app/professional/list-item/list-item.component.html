@@ -1,0 +1,18 @@
+<div class="bulletCont">
+    <div *ngFor="let bullet of bulletList" class="bullet">
+        <div class="leftSideBullet">
+            <div class="timing">{{bullet.time}}</div>
+            <div class="circleSeparatorBullet"></div>
+        </div>
+        <div class="rightSideBullet">
+            <div class="bulletHeader">
+                {{bullet.position}} 
+                <span class="greenAt">@</span> 
+                {{bullet.place}}
+            </div>
+            <div *ngFor="let line of bullet.bullets" class="subBullet">
+                - {{line}}
+            </div>
+        </div>
+    </div>
+</div>

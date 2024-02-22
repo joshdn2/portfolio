@@ -1,0 +1,48 @@
+@import '../../../styles.css';
+.bulletCont{
+    .bullet{
+        display: grid;
+        grid-template-columns: 120px 1fr;
+
+        .leftSideBullet{
+            grid-column-start:1;
+            grid-column-end:2;
+            border-right: solid 2px var(--light-gray);
+            padding: 15px;
+            position: relative; 
+            text-align: center; 
+
+            .circleSeparatorBullet{
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                top: 15px;
+                left: calc(100% - 9px);
+                background: var(--bright-green);
+                border-radius: 10px;
+            }
+        }
+        .rightSideBullet{
+            grid-column-start:2;
+            grid-column-end:3;
+            max-width:500px;
+            padding: 13px 0 20px 30px;
+
+            .bulletHeader{
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 10px;
+                
+                .greenAt{
+                    color:var(--bright-green);
+                }
+            }
+            .timing{
+                font-style: italic;
+            }
+            .subBullet{
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
