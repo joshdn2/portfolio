@@ -2,9 +2,11 @@
     <div class="skillHeader">{{skillCat.categoryName}}</div>
     <div class="skillItem" *ngFor="let skill of skillCat.skills">
         <div>{{skill.name}}</div>
-        <div *ngFor="let isFilled of getStarsArray(skill.rating)">
-            <i *ngIf="isFilled" class="bi bi-star-fill starIcon"></i>
-            <i *ngIf="!isFilled" class="bi bi-star starIcon"></i>
+        <div>
+            <div *ngFor="let isFilled of getStarsArray(skill.rating)">
+                <i *ngIf="isFilled" class="bi bi-star-fill starIcon"></i>
+                <i *ngIf="!isFilled" class="bi bi-star starIcon"></i>
+            </div>
         </div>
     </div>
 </div>
