@@ -65,7 +65,8 @@ export class ProfessionalComponent {
       location:'Provo, UT',
       bullets:[
         'GPA 3.67; Major GPA 3.83',
-        'Member of the Association for Information Systems and the BYU Developers Club'
+        'Member of the Association for Information Systems and the BYU Developers Club',
+        "Completed Bachelor's Degree in Information Systems at the same time via BYU's integrated Master's program"
       ],
     },
   ]
