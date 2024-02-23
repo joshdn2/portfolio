@@ -4,23 +4,31 @@
 
     .skillHeader{
         font-weight: bold;
-        font-size: 20px;
+        font-size: 1.4rem;
         margin: 15px 0;
+        color: var(--bright-green);
     }
     .skillItem{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 5px;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        cursor: pointer;
 
-        i{
-            color:var(--light-gray);
+        .starCont{
+            display: flex;
+
+            svg{
+                fill:white;
+                margin-left: 5px;
+            }
         }
     }
     .skillItem:hover{
-        font-weight: bold;
+        color: var(--bright-green);
         
-        i{
-            color:var(--bright-green);
+        svg{
+            fill:var(--bright-green);
         }
     }
 }

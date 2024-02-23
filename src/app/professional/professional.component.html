@@ -8,7 +8,17 @@
         <app-list-item [bulletList]="educationBullets"></app-list-item>
     </div>
     <div class="sectionHeader">Skills</div>
-    <div class="skillsContent" *ngFor="let skillCat of skillsContent">
-        <app-skill-section [skillCat]="skillCat"></app-skill-section>
+    <div class="skillsContent">
+        <div class="skillCols">
+            <app-skill-section [skillCat]="skillsContent[0]" class="engskills"></app-skill-section>
+        </div>
+        <div class="skillCols">
+            <app-skill-section [skillCat]="skillsContent[1]" class="prodskills"></app-skill-section>
+            <app-skill-section [skillCat]="skillsContent[2]" class="uxskills"></app-skill-section>
+        </div>
+        <div class="skillCols">
+            <app-skill-section [skillCat]="skillsContent[3]" class="langskills"></app-skill-section>
+            <app-skill-section [skillCat]="skillsContent[4]" class="otherskills"></app-skill-section>
+        </div>
     </div>
 </div>

@@ -14,6 +14,17 @@
         justify-content: space-around;
         margin-top: 20px;
     }
+    .skillsContent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 60px;
+
+        .skillCols{
+            width: 360px;
+            margin-right: 20px;
+        }
+    }
 }
 
 /* @media screen and (max-width:800px) {

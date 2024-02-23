@@ -90,19 +90,23 @@ export class ProfessionalComponent {
           rating:5
         },
         {
-          name:'HTML5',
+          name:'HTML/5',
           rating:5
         },
         {
-          name:'CSS#/Less',
+          name:'CSS/3 (+ SASS/Less)',
           rating:5
         },
         {
-          name:'C#/ASP.NET',
+          name:'C#',
           rating:3
         },
         {
-          name:'SQL/MSSQL',
+          name:'ASP.NET',
+          rating:3
+        },
+        {
+          name:'SQL / MSSQL',
           rating:4
         },
         {
@@ -139,31 +143,6 @@ export class ProfessionalComponent {
         }
       ]
     },
-    /**
-     * While developers see lines of code, product management contributions exist in countless meetings, strategic planning, and research.
-  
-  It's invisible work, but invaluable.
-  
-  Here's what Product Managers do:
-  1/ Navigate information overload: We attend meetings, read reports, and analyze data to make informed product decisions. It's not always glamorous, but crucial.
-  
-  2/ See the bigger picture: We think beyond immediate gains, focusing on long-term value and strategic direction. Sometimes, the "gold" takes time to mine.
-  
-  3/ Boost morale & communication: We keep teams inspired, address stakeholder concerns, and find innovative solutions.
-  
-  4/ Champion continuous improvement: We conduct research, brainstorm ideas, and find the right people to get things done.
-  
-  And yes, we're human too: We need breaks to recharge and stay creative.
-  
-  Remember, Product Management is a marathon, not a sprint.
-  
-  Our work builds the foundation for amazing products, even if it's not always visible.
-  
-  Though challenging to quantify and lacking immediate results, It's work that holds value.
-  It brings exceptional products to life.
-     * 
-     * 
-     */
     {
       categoryName:'Product',
       description:'',
