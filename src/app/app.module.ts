@@ -9,10 +9,10 @@ import { HomeGraphicComponent } from './home/home-graphic/home-graphic.component
 import { PersonalComponent } from './personal/personal.component';
 import { ProfessionalComponent } from './professional/professional.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ListItemComponent } from './professional/list-item/list-item.component';
 import { SkillSectionComponent } from './professional/skill-section/skill-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +23,10 @@ import { SkillSectionComponent } from './professional/skill-section/skill-sectio
     PersonalComponent,
     ProfessionalComponent,
     NavbarComponent,
-    ContactComponent,
     ProjectsComponent,
     ListItemComponent,
-    SkillSectionComponent
+    SkillSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

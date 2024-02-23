@@ -1,10 +1,13 @@
 @import '../../styles.css';
+
 .professionalPage{
+    display: flex;
+    flex-direction: column; 
 
     .sectionHeader{
         padding-bottom: 5px;
         margin: 10px 0;
-        font-size: 38px;
+        font-size: 24px;
         font-weight: bold;
         border-bottom: 2px solid var(--light-gray);
         color: var(--bright-green);

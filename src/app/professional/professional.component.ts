@@ -115,8 +115,8 @@ export class ProfessionalComponent {
           rating:3
         },
         {
-          name:'Database Design',
-          rating:3
+          name:'Relational Databases',
+          rating:4
         },
         {
           name:'Frontend Architecture',
@@ -219,7 +219,7 @@ export class ProfessionalComponent {
         },
         {
           name:'Variable Fidelity Prototyping',
-          rating:4
+          rating:5
         },
       ]
     },
