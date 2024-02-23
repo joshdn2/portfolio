@@ -12,16 +12,14 @@
         justify-content: space-between;
         margin-bottom: 5px;
 
-        .starIcon{
-            width:10px;
-            height:10px;
+        i{
             color:var(--light-gray);
         }
     }
     .skillItem:hover{
         font-weight: bold;
         
-        .starIcon{
+        i{
             color:var(--bright-green);
         }
     }
