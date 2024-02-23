@@ -18,7 +18,7 @@
         .starCont{
             display: flex;
 
-            svg{
+            :is(svg){
                 fill:white;
                 margin-left: 5px;
             }
@@ -27,7 +27,7 @@
     .skillItem:hover{
         color: var(--bright-green);
         
-        svg{
+        :is(svg){
             fill:var(--bright-green);
         }
     }

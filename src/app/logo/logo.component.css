@@ -8,7 +8,7 @@
         font-size: 32px;
         position: relative;
 
-        div{
+        :is(div){
             color:var(--bright-green);
             position:absolute;
         }

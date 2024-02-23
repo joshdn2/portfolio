@@ -1,7 +1,7 @@
 #graphicSection{
     position: relative;
 
-    img{
+    :is(img){
         width: auto;
         position: absolute;
         left: 80px;
@@ -48,7 +48,7 @@
 
 @media screen and (min-width: 801px) {
     .graphicSectionPlacement{
-        img{
+        :is(img){
             height: 370px;
         }
         .frontblob{
@@ -84,7 +84,7 @@
 @media screen and (max-width:800px) {
     .graphicSectionPlacement{
 
-        img{
+        :is(img){
             height: 300px;
         }
         .frontblob{
