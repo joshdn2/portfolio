@@ -18,7 +18,7 @@ export class ProfessionalComponent {
       time:'Oct 2022 - Feb 2024',
       location:'Lindon, UT',
       bullets:[
-        "Created custom multi-criteria decision making framework for prioritizing feature requests and managing engineering resources (combination of RICE, MoSCoW, Value vs Effort)",
+        "Created custom multi-criteria decision-making framework for prioritizing feature requests and managing engineering resources (combination of RICE, MoSCoW, Value vs Effort)",
         "Managed multi-faceted delivery, automation, and project management platform across multiple product engineering teams; pivoted prioritization to a user role-centric focus",
         "Reworked company consultant deliverable process by combining multiple teams' siloed delivery processes and deliverables into one coherent delivery method",
         "Took all enhancements through full design processes, conducted user research, and worked with engineering to deliver delightful experiences",
