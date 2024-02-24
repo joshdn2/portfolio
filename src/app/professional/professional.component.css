@@ -3,7 +3,12 @@
 .professionalPage{
     display: flex;
     flex-direction: column; 
-
+    
+    .pageHeader{
+        font-size: 34px;
+        font-weight: bold;
+        margin: 0 auto 10px auto;
+    }
     .sectionHeader{
         padding-bottom: 5px;
         margin: 10px 0;

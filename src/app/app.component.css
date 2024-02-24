@@ -2,12 +2,6 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 20px;
-    
-    .pageHeader{
-        font-size: 34px;
-        font-weight: bold;
-        margin: 0 auto 10px auto;
-    }
 }
 
 @media screen and (max-width:800px) {
