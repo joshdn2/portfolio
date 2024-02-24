@@ -5,9 +5,9 @@
     flex-direction: column; 
     
     .pageHeader{
-        font-size: 34px;
+        font-size: 36px;
         font-weight: bold;
-        margin: 0 auto 10px auto;
+        margin: 0 auto 5px auto;
     }
     .sectionHeader{
         padding-bottom: 5px;
