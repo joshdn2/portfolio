@@ -22,8 +22,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/jdIcon.png",
-              "src/assets",
-              "portfolio/assets"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"

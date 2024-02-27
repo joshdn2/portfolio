@@ -8,7 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 const routes: Routes = [
   {path:'', component: HomeComponent, title:'Josh Danneman Portfolio'},
   {path:'resume', component: ProfessionalComponent, title:'Resume'},
-  // {path:'personal', component: PersonalComponent, title:'Personal'},
+  {path:'aboutMe', component: PersonalComponent, title:'About Me'},
   // {path:'projects', component: ProjectsComponent, title:'Projects'},
   {path: '**', redirectTo: ''}
 ]
