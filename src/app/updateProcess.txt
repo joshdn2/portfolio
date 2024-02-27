@@ -1,0 +1,8 @@
+Portfolio Update Process:
+
+checkout gh-pages-ip branch
+make changes
+push
+checkout gh-pages branch
+merge gh-pages-ip
+ng build --configuration production --base-href="https://joshdn2.github.io/portfolio/" && angular-cli-ghpages --branch gh-pages --dir=dist/portfolio/
