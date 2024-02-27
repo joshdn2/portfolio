@@ -264,6 +264,10 @@ export class ProfessionalComponent {
           rating:2
         },
         {
+          name:'Asana',
+          rating:3
+        },
+        {
           name:'Visual Studio',
           rating:3
         },
