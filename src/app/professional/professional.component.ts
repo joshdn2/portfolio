@@ -13,16 +13,34 @@ export class ProfessionalComponent {
 
   experienceBullets:bullet[] = [
     {
+      place:'Greenpath Marketing',
+      position:'Founder',
+      time:'May 2025 - Present',
+      location:'Kennesaw, GA',
+      bullets:[
+        "Founder of Greenpath Marketing, helping small businesses get more jobs with organic online growth.",
+        "Created and now managing business delivery processes including sales and outreach, marketing, onboarding, SEO service delivery, website development, and client success management."
+      ],
+    },
+    {
+      place:'Attract To Scale',
+      position:'Operations and Delivery Specialist - Contract',
+      time:'Apr 2025 - Aug 2025',
+      location:'Woodstock, GA - Remote',
+      bullets:[
+        "Delivered digital marketing services including SEO optimization, chatbot integration, and conversion improvement content to clients across dozens of industries",
+        "Rebuilt company delivery processes and operations management"
+      ],
+    },
+    {
       place:'Anglepoint',
       position:'Technical Product Manager',
       time:'Oct 2022 - Feb 2024',
       location:'Lindon, UT',
       bullets:[
-        "Created custom multi-criteria decision-making framework for prioritizing feature requests and managing engineering resources (combination of RICE, MoSCoW, Value vs Effort)",
-        "Managed multi-faceted delivery, automation, and project management platform across multiple product engineering teams; pivoted prioritization to a user role-centric focus",
-        "Reworked company consultant deliverable process by combining multiple teams' siloed delivery processes and deliverables into one coherent delivery method",
+        "Pivoted prioritization methodology to a user-role-centric focus instead of feature focus, which enabled us to begin decluttering the application significantly.",
         "Took all enhancements through full design processes, conducted user research, and worked with engineering to deliver delightful experiences",
-        "Changed the product and product roadmap from a feature-focused prioritization and implementation to being based around user roles, journeys, and flows"
+        "Reworked company deliverables by combining multiple teams’ siloed processes into one coherent delivery method"
       ],
     },
     {
@@ -104,11 +122,11 @@ export class ProfessionalComponent {
         },
         {
           name:'ASP.NET',
-          rating:3
+          rating:2
         },
         {
           name:'SQL / MSSQL',
-          rating:4
+          rating:3
         },
         {
           name:'Git',
@@ -120,19 +138,15 @@ export class ProfessionalComponent {
         },
         {
           name:'Frontend Architecture',
-          rating:4
-        },
-        {
-          name:'Node',
           rating:3
         },
         {
-          name:'Python',
+          name:'Node',
           rating:2
         },
         {
           name:'Bootstrap',
-          rating:4
+          rating:3
         },
         {
           name:'REST APIs',
@@ -150,7 +164,7 @@ export class ProfessionalComponent {
       skills:[
         {
           name:'Product Roadmapping',
-          rating:5
+          rating:4
         },
         {
           name:'Prioritization',
@@ -248,20 +262,32 @@ export class ProfessionalComponent {
           rating:5
         },
         {
-          name:'Agile',
+          name:'Operations Management',
           rating:5
+        },
+        {
+          name:'Digital Marketing',
+          rating:4
+        },
+        {
+          name:'Agile',
+          rating:4
         },
         {
           name:'Scrumban (Scrum x Kanban)',
-          rating:5
+          rating:4
         },
         {
           name:'Azure DevOps',
-          rating:5
+          rating:3
         },
         {
           name:'Jira',
           rating:2
+        },
+        {
+          name:'Asana',
+          rating:4
         },
         {
           name:'Visual Studio',
